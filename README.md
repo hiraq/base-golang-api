@@ -51,6 +51,19 @@ routes = append(routes, Route{"GET", "/hello", controller.HelloWorld})
 And that's it.  For now, i'm not think about sub router or others, but you can 
 modify this route's process based on your needs.
 
+If you area clone this repo into your own project's folder, you need to change
+`routes.go` at line `4` :
+
+```go
+controller "base-golang-api/handler"
+```
+
+Example:
+
+```go
+controller "myproject/handler"
+```
+
 ---
 
 ## Middlewares
