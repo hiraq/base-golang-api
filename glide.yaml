@@ -4,3 +4,4 @@ import:
   version: v1.6.1
 - package: github.com/gorilla/handlers
   version: v1.3.0
+- package: github.com/alexsasharegan/dotenv
