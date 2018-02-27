@@ -1,0 +1,6 @@
+package: base-golang-api
+import:
+- package: github.com/gorilla/mux
+  version: v1.6.1
+- package: github.com/gorilla/handlers
+  version: v1.3.0
